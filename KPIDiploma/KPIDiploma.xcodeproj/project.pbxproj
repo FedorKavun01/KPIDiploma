@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44F95B2291829C90039BEA7 /* KPIDiplomaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95B1291829C90039BEA7 /* KPIDiplomaApp.swift */; };
+		F44F95B4291829C90039BEA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95B3291829C90039BEA7 /* ContentView.swift */; };
+		F44F95B6291829CA0039BEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44F95B5291829CA0039BEA7 /* Assets.xcassets */; };
+		F44F95BA291829CA0039BEA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44F95B9291829CA0039BEA7 /* Preview Assets.xcassets */; };
+		F44F95C4291829CB0039BEA7 /* KPIDiplomaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95C3291829CB0039BEA7 /* KPIDiplomaTests.swift */; };
+		F44F95CE291829CB0039BEA7 /* KPIDiplomaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95CD291829CB0039BEA7 /* KPIDiplomaUITests.swift */; };
+		F44F95D0291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95CF291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44F95C0291829CB0039BEA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44F95A6291829C90039BEA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44F95AD291829C90039BEA7;
+			remoteInfo = KPIDiploma;
+		};
+		F44F95CA291829CB0039BEA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F44F95A6291829C90039BEA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44F95AD291829C90039BEA7;
+			remoteInfo = KPIDiploma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F44F95AE291829C90039BEA7 /* KPIDiploma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPIDiploma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44F95B1291829C90039BEA7 /* KPIDiplomaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaApp.swift; sourceTree = "<group>"; };
+		F44F95B3291829C90039BEA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F44F95B5291829CA0039BEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F44F95B7291829CA0039BEA7 /* KPIDiploma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KPIDiploma.entitlements; sourceTree = "<group>"; };
+		F44F95B9291829CA0039BEA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F44F95BF291829CB0039BEA7 /* KPIDiplomaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPIDiplomaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44F95C3291829CB0039BEA7 /* KPIDiplomaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaTests.swift; sourceTree = "<group>"; };
+		F44F95C9291829CB0039BEA7 /* KPIDiplomaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPIDiplomaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44F95CD291829CB0039BEA7 /* KPIDiplomaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaUITests.swift; sourceTree = "<group>"; };
+		F44F95CF291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44F95AB291829C90039BEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44F95BC291829CB0039BEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44F95C6291829CB0039BEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F44F95A5291829C90039BEA7 = {
+			isa = PBXGroup;
+			children = (
+				F44F95B0291829C90039BEA7 /* KPIDiploma */,
+				F44F95C2291829CB0039BEA7 /* KPIDiplomaTests */,
+				F44F95CC291829CB0039BEA7 /* KPIDiplomaUITests */,
+				F44F95AF291829C90039BEA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44F95AF291829C90039BEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44F95AE291829C90039BEA7 /* KPIDiploma.app */,
+				F44F95BF291829CB0039BEA7 /* KPIDiplomaTests.xctest */,
+				F44F95C9291829CB0039BEA7 /* KPIDiplomaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44F95B0291829C90039BEA7 /* KPIDiploma */ = {
+			isa = PBXGroup;
+			children = (
+				F44F95B1291829C90039BEA7 /* KPIDiplomaApp.swift */,
+				F44F95B3291829C90039BEA7 /* ContentView.swift */,
+				F44F95B5291829CA0039BEA7 /* Assets.xcassets */,
+				F44F95B7291829CA0039BEA7 /* KPIDiploma.entitlements */,
+				F44F95B8291829CA0039BEA7 /* Preview Content */,
+			);
+			path = KPIDiploma;
+			sourceTree = "<group>";
+		};
+		F44F95B8291829CA0039BEA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F44F95B9291829CA0039BEA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F44F95C2291829CB0039BEA7 /* KPIDiplomaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F44F95C3291829CB0039BEA7 /* KPIDiplomaTests.swift */,
+			);
+			path = KPIDiplomaTests;
+			sourceTree = "<group>";
+		};
+		F44F95CC291829CB0039BEA7 /* KPIDiplomaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F44F95CD291829CB0039BEA7 /* KPIDiplomaUITests.swift */,
+				F44F95CF291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift */,
+			);
+			path = KPIDiplomaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44F95AD291829C90039BEA7 /* KPIDiploma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44F95D3291829CB0039BEA7 /* Build configuration list for PBXNativeTarget "KPIDiploma" */;
+			buildPhases = (
+				F44F95AA291829C90039BEA7 /* Sources */,
+				F44F95AB291829C90039BEA7 /* Frameworks */,
+				F44F95AC291829C90039BEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KPIDiploma;
+			productName = KPIDiploma;
+			productReference = F44F95AE291829C90039BEA7 /* KPIDiploma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44F95BE291829CB0039BEA7 /* KPIDiplomaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44F95D6291829CB0039BEA7 /* Build configuration list for PBXNativeTarget "KPIDiplomaTests" */;
+			buildPhases = (
+				F44F95BB291829CB0039BEA7 /* Sources */,
+				F44F95BC291829CB0039BEA7 /* Frameworks */,
+				F44F95BD291829CB0039BEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44F95C1291829CB0039BEA7 /* PBXTargetDependency */,
+			);
+			name = KPIDiplomaTests;
+			productName = KPIDiplomaTests;
+			productReference = F44F95BF291829CB0039BEA7 /* KPIDiplomaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F44F95C8291829CB0039BEA7 /* KPIDiplomaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44F95D9291829CB0039BEA7 /* Build configuration list for PBXNativeTarget "KPIDiplomaUITests" */;
+			buildPhases = (
+				F44F95C5291829CB0039BEA7 /* Sources */,
+				F44F95C6291829CB0039BEA7 /* Frameworks */,
+				F44F95C7291829CB0039BEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F44F95CB291829CB0039BEA7 /* PBXTargetDependency */,
+			);
+			name = KPIDiplomaUITests;
+			productName = KPIDiplomaUITests;
+			productReference = F44F95C9291829CB0039BEA7 /* KPIDiplomaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F44F95A6291829C90039BEA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F44F95AD291829C90039BEA7 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F44F95BE291829CB0039BEA7 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F44F95AD291829C90039BEA7;
+					};
+					F44F95C8291829CB0039BEA7 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F44F95AD291829C90039BEA7;
+					};
+				};
+			};
+			buildConfigurationList = F44F95A9291829C90039BEA7 /* Build configuration list for PBXProject "KPIDiploma" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F44F95A5291829C90039BEA7;
+			productRefGroup = F44F95AF291829C90039BEA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44F95AD291829C90039BEA7 /* KPIDiploma */,
+				F44F95BE291829CB0039BEA7 /* KPIDiplomaTests */,
+				F44F95C8291829CB0039BEA7 /* KPIDiplomaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44F95AC291829C90039BEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F95BA291829CA0039BEA7 /* Preview Assets.xcassets in Resources */,
+				F44F95B6291829CA0039BEA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44F95BD291829CB0039BEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44F95C7291829CB0039BEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F44F95AA291829C90039BEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F95B4291829C90039BEA7 /* ContentView.swift in Sources */,
+				F44F95B2291829C90039BEA7 /* KPIDiplomaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44F95BB291829CB0039BEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F95C4291829CB0039BEA7 /* KPIDiplomaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44F95C5291829CB0039BEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F95D0291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift in Sources */,
+				F44F95CE291829CB0039BEA7 /* KPIDiplomaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F44F95C1291829CB0039BEA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44F95AD291829C90039BEA7 /* KPIDiploma */;
+			targetProxy = F44F95C0291829CB0039BEA7 /* PBXContainerItemProxy */;
+		};
+		F44F95CB291829CB0039BEA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44F95AD291829C90039BEA7 /* KPIDiploma */;
+			targetProxy = F44F95CA291829CB0039BEA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F44F95D1291829CB0039BEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44F95D2291829CB0039BEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F44F95D4291829CB0039BEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KPIDiploma/KPIDiploma.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KPIDiploma/Preview Content\"";
+				DEVELOPMENT_TEAM = LW47MCB6FJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = F.KPIDiploma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F44F95D5291829CB0039BEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KPIDiploma/KPIDiploma.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KPIDiploma/Preview Content\"";
+				DEVELOPMENT_TEAM = LW47MCB6FJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = F.KPIDiploma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F44F95D7291829CB0039BEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW47MCB6FJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = F.KPIDiplomaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPIDiploma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KPIDiploma";
+			};
+			name = Debug;
+		};
+		F44F95D8291829CB0039BEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW47MCB6FJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = F.KPIDiplomaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KPIDiploma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KPIDiploma";
+			};
+			name = Release;
+		};
+		F44F95DA291829CB0039BEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW47MCB6FJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = F.KPIDiplomaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KPIDiploma;
+			};
+			name = Debug;
+		};
+		F44F95DB291829CB0039BEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW47MCB6FJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = F.KPIDiplomaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KPIDiploma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F44F95A9291829C90039BEA7 /* Build configuration list for PBXProject "KPIDiploma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44F95D1291829CB0039BEA7 /* Debug */,
+				F44F95D2291829CB0039BEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44F95D3291829CB0039BEA7 /* Build configuration list for PBXNativeTarget "KPIDiploma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44F95D4291829CB0039BEA7 /* Debug */,
+				F44F95D5291829CB0039BEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44F95D6291829CB0039BEA7 /* Build configuration list for PBXNativeTarget "KPIDiplomaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44F95D7291829CB0039BEA7 /* Debug */,
+				F44F95D8291829CB0039BEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44F95D9291829CB0039BEA7 /* Build configuration list for PBXNativeTarget "KPIDiplomaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44F95DA291829CB0039BEA7 /* Debug */,
+				F44F95DB291829CB0039BEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F44F95A6291829C90039BEA7 /* Project object */;
+}
