@@ -14,6 +14,9 @@
 		F44F95C4291829CB0039BEA7 /* KPIDiplomaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95C3291829CB0039BEA7 /* KPIDiplomaTests.swift */; };
 		F44F95CE291829CB0039BEA7 /* KPIDiplomaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95CD291829CB0039BEA7 /* KPIDiplomaUITests.swift */; };
 		F44F95D0291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95CF291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift */; };
+		F44F95DE29182CBE0039BEA7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95DD29182CBE0039BEA7 /* Alamofire */; };
+		F44F95E129182E490039BEA7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95E029182E490039BEA7 /* ComposableArchitecture */; };
+		F44F95E329182E490039BEA7 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95E229182E490039BEA7 /* Dependencies */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F44F95E329182E490039BEA7 /* Dependencies in Frameworks */,
+				F44F95E129182E490039BEA7 /* ComposableArchitecture in Frameworks */,
+				F44F95DE29182CBE0039BEA7 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +78,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4486C8D29201A1F00582138 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F4486C8E29201A9F00582138 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F44F95B5291829CA0039BEA7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F4486C8F29201B2B00582138 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F4486C9029201B7200582138 /* Views */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F4486C9029201B7200582138 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4486C9329201BBD00582138 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F4486C9429201BC200582138 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		F44F95A5291829C90039BEA7 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +145,13 @@
 		F44F95B0291829C90039BEA7 /* KPIDiploma */ = {
 			isa = PBXGroup;
 			children = (
+				F4486C9429201BC200582138 /* Domain */,
+				F4486C9329201BBD00582138 /* Common */,
+				F4486C8F29201B2B00582138 /* Application */,
+				F4486C8E29201A9F00582138 /* Resources */,
+				F4486C8D29201A1F00582138 /* Core */,
 				F44F95B1291829C90039BEA7 /* KPIDiplomaApp.swift */,
 				F44F95B3291829C90039BEA7 /* ContentView.swift */,
-				F44F95B5291829CA0039BEA7 /* Assets.xcassets */,
 				F44F95B7291829CA0039BEA7 /* KPIDiploma.entitlements */,
 				F44F95B8291829CA0039BEA7 /* Preview Content */,
 			);
@@ -145,6 +199,11 @@
 			dependencies = (
 			);
 			name = KPIDiploma;
+			packageProductDependencies = (
+				F44F95DD29182CBE0039BEA7 /* Alamofire */,
+				F44F95E029182E490039BEA7 /* ComposableArchitecture */,
+				F44F95E229182E490039BEA7 /* Dependencies */,
+			);
 			productName = KPIDiploma;
 			productReference = F44F95AE291829C90039BEA7 /* KPIDiploma.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +276,10 @@
 				Base,
 			);
 			mainGroup = F44F95A5291829C90039BEA7;
+			packageReferences = (
+				F44F95DC29182CBE0039BEA7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F44F95DF29182E490039BEA7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = F44F95AF291829C90039BEA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -616,6 +679,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F44F95DC29182CBE0039BEA7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F44F95DF29182E490039BEA7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F44F95DD29182CBE0039BEA7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F44F95DC29182CBE0039BEA7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F44F95E029182E490039BEA7 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F44F95DF29182E490039BEA7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		F44F95E229182E490039BEA7 /* Dependencies */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F44F95DF29182E490039BEA7 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F44F95A6291829C90039BEA7 /* Project object */;
 }
