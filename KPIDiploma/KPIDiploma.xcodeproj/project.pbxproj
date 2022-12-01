@@ -17,6 +17,7 @@
 		F44F95DE29182CBE0039BEA7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95DD29182CBE0039BEA7 /* Alamofire */; };
 		F44F95E129182E490039BEA7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95E029182E490039BEA7 /* ComposableArchitecture */; };
 		F44F95E329182E490039BEA7 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95E229182E490039BEA7 /* Dependencies */; };
+		F48E982A2938EBA100202847 /* EmptyResponseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E98292938EBA100202847 /* EmptyResponseHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F44F95C9291829CB0039BEA7 /* KPIDiplomaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPIDiplomaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44F95CD291829CB0039BEA7 /* KPIDiplomaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaUITests.swift; sourceTree = "<group>"; };
 		F44F95CF291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F48E98292938EBA100202847 /* EmptyResponseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponseHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,8 @@
 		F4486C8D29201A1F00582138 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F48E982C2938EC6500202847 /* ViewModel */,
+				F48E982B2938EC5B00202847 /* Mapper */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -96,6 +100,7 @@
 		F4486C8F29201B2B00582138 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				F48E98252938EA6400202847 /* Data */,
 				F4486C9029201B7200582138 /* Views */,
 			);
 			path = Application;
@@ -104,6 +109,10 @@
 		F4486C9029201B7200582138 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F48E98242938E9E500202847 /* Settings */,
+				F48E98232938E9D900202847 /* Schedule */,
+				F48E98222938E9D000202847 /* CurrentLesson */,
+				F48E98212938E9C800202847 /* Utils */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,6 +127,8 @@
 		F4486C9429201BC200582138 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				F48E982E2938EC9100202847 /* Repository */,
+				F48E982D2938EC8C00202847 /* Model */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -181,6 +192,86 @@
 				F44F95CF291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift */,
 			);
 			path = KPIDiplomaUITests;
+			sourceTree = "<group>";
+		};
+		F48E98212938E9C800202847 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F48E98222938E9D000202847 /* CurrentLesson */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CurrentLesson;
+			sourceTree = "<group>";
+		};
+		F48E98232938E9D900202847 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		F48E98242938E9E500202847 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F48E98252938EA6400202847 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F48E98282938EB8D00202847 /* Networking */,
+				F48E98262938EABD00202847 /* DTO */,
+				F48E98292938EBA100202847 /* EmptyResponseHelper.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F48E98262938EABD00202847 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		F48E98282938EB8D00202847 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F48E982B2938EC5B00202847 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		F48E982C2938EC6500202847 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F48E982D2938EC8C00202847 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F48E982E2938EC9100202847 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F44F95B4291829C90039BEA7 /* ContentView.swift in Sources */,
+				F48E982A2938EBA100202847 /* EmptyResponseHelper.swift in Sources */,
 				F44F95B2291829C90039BEA7 /* KPIDiplomaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
