@@ -18,6 +18,53 @@
 		F44F95E129182E490039BEA7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95E029182E490039BEA7 /* ComposableArchitecture */; };
 		F44F95E329182E490039BEA7 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95E229182E490039BEA7 /* Dependencies */; };
 		F48E982A2938EBA100202847 /* EmptyResponseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E98292938EBA100202847 /* EmptyResponseHelper.swift */; };
+		F48E98342938F3B900202847 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E98332938F3B900202847 /* SignInView.swift */; };
+		F48E98372938F3D100202847 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E98362938F3D100202847 /* MainButtonView.swift */; };
+		F48E983B2938FA8E00202847 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E983A2938FA8E00202847 /* Color+Ext.swift */; };
+		F48E983D2938FC5400202847 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E983C2938FC5400202847 /* HomeView.swift */; };
+		F48E983F2938FEFC00202847 /* KPITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E983E2938FEFC00202847 /* KPITextField.swift */; };
+		F4939693293CC47A0036059F /* ExamDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4939692293CC47A0036059F /* ExamDTO.swift */; };
+		F4939695293CC9080036059F /* Exam.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4939694293CC9080036059F /* Exam.swift */; };
+		F4939697293CC9C50036059F /* FinanceDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4939696293CC9C50036059F /* FinanceDTO.swift */; };
+		F4939699293CCA340036059F /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4939698293CCA340036059F /* Finance.swift */; };
+		F493969B293CCB9C0036059F /* RepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493969A293CCB9C0036059F /* RepositoryImpl.swift */; };
+		F493969D293CCBBC0036059F /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493969C293CCBBC0036059F /* DataProvider.swift */; };
+		F49396A0293CCBE60036059F /* DataProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F493969F293CCBE60036059F /* DataProviderProtocol.swift */; };
+		F49396A2293CCDA30036059F /* RESTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49396A1293CCDA30036059F /* RESTClient.swift */; };
+		F4BFAD20293BCF2100106971 /* FinancialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD1F293BCF2100106971 /* FinancialView.swift */; };
+		F4BFAD22293BCF2A00106971 /* MarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD21293BCF2A00106971 /* MarksView.swift */; };
+		F4BFAD24293BD05700106971 /* StorageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD23293BD05700106971 /* StorageKey.swift */; };
+		F4BFAD26293BD18F00106971 /* UserDefaults+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD25293BD18F00106971 /* UserDefaults+Ext.swift */; };
+		F4BFAD28293BD3AC00106971 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD27293BD3AC00106971 /* Images.swift */; };
+		F4BFAD2A293C2A9100106971 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD29293C2A9100106971 /* Repository.swift */; };
+		F4BFAD2C293C2B3900106971 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD2B293C2B3900106971 /* Group.swift */; };
+		F4BFAD2E293C2B5900106971 /* GroupDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD2D293C2B5900106971 /* GroupDTO.swift */; };
+		F4BFAD32293C3DAB00106971 /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD31293C3DAB00106971 /* Mark.swift */; };
+		F4BFAD34293C3DEF00106971 /* MarkDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BFAD33293C3DEF00106971 /* MarkDTO.swift */; };
+		F4CFE83E293D26A3009211B0 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE83D293D26A3009211B0 /* Mapper.swift */; };
+		F4CFE841293D2D71009211B0 /* KPIPasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE840293D2D71009211B0 /* KPIPasswordField.swift */; };
+		F4CFE845293D4115009211B0 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE844293D4115009211B0 /* Date+Ext.swift */; };
+		F4CFE847293D4C17009211B0 /* CurrentLessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE846293D4C17009211B0 /* CurrentLessonViewModel.swift */; };
+		F4CFE849293D4C3E009211B0 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE848293D4C3E009211B0 /* BaseViewModel.swift */; };
+		F4CFE84B293D4F9D009211B0 /* DetailLessonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE84A293D4F9D009211B0 /* DetailLessonViewModel.swift */; };
+		F4CFE84D293D51A6009211B0 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE84C293D51A6009211B0 /* ScheduleViewModel.swift */; };
+		F4CFE84F293D5D87009211B0 /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE84E293D5D87009211B0 /* InfoViewModel.swift */; };
+		F4CFE851293D5F22009211B0 /* ExamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE850293D5F22009211B0 /* ExamViewModel.swift */; };
+		F4CFE853293D6107009211B0 /* MarksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE852293D6107009211B0 /* MarksViewModel.swift */; };
+		F4CFE855293D6262009211B0 /* FinanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE854293D6262009211B0 /* FinanceViewModel.swift */; };
+		F4CFE859293D664F009211B0 /* DetailLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE858293D664F009211B0 /* DetailLessonView.swift */; };
+		F4CFE85B293D6B1E009211B0 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CFE85A293D6B1E009211B0 /* SignInViewModel.swift */; };
+		F4FE31202939AE1E0022E8FA /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE311F2939AE1E0022E8FA /* LessonView.swift */; };
+		F4FE31222939AE5A0022E8FA /* LessonDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE31212939AE5A0022E8FA /* LessonDTO.swift */; };
+		F4FE31242939AFC90022E8FA /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE31232939AFC90022E8FA /* Lesson.swift */; };
+		F4FE31262939BBBE0022E8FA /* CurrentLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE31252939BBBE0022E8FA /* CurrentLessonView.swift */; };
+		F4FE31282939BC780022E8FA /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE31272939BC780022E8FA /* ScheduleView.swift */; };
+		F4FE312A2939BDC30022E8FA /* ScheduleDayDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE31292939BDC30022E8FA /* ScheduleDayDTO.swift */; };
+		F4FE312C2939BE120022E8FA /* ScheduleDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE312B2939BE120022E8FA /* ScheduleDay.swift */; };
+		F4FE312E2939BE510022E8FA /* ScheduleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE312D2939BE510022E8FA /* ScheduleCardView.swift */; };
+		F4FE31302939C5F00022E8FA /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE312F2939C5F00022E8FA /* ProfileInfoView.swift */; };
+		F4FE31322939C63A0022E8FA /* UserDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE31312939C63A0022E8FA /* UserDTO.swift */; };
+		F4FE31342939C6D50022E8FA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FE31332939C6D50022E8FA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +97,53 @@
 		F44F95CD291829CB0039BEA7 /* KPIDiplomaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaUITests.swift; sourceTree = "<group>"; };
 		F44F95CF291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F48E98292938EBA100202847 /* EmptyResponseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponseHelper.swift; sourceTree = "<group>"; };
+		F48E98332938F3B900202847 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F48E98362938F3D100202847 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
+		F48E983A2938FA8E00202847 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		F48E983C2938FC5400202847 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F48E983E2938FEFC00202847 /* KPITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPITextField.swift; sourceTree = "<group>"; };
+		F4939692293CC47A0036059F /* ExamDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamDTO.swift; sourceTree = "<group>"; };
+		F4939694293CC9080036059F /* Exam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exam.swift; sourceTree = "<group>"; };
+		F4939696293CC9C50036059F /* FinanceDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceDTO.swift; sourceTree = "<group>"; };
+		F4939698293CCA340036059F /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		F493969A293CCB9C0036059F /* RepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryImpl.swift; sourceTree = "<group>"; };
+		F493969C293CCBBC0036059F /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		F493969F293CCBE60036059F /* DataProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderProtocol.swift; sourceTree = "<group>"; };
+		F49396A1293CCDA30036059F /* RESTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTClient.swift; sourceTree = "<group>"; };
+		F4BFAD1F293BCF2100106971 /* FinancialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialView.swift; sourceTree = "<group>"; };
+		F4BFAD21293BCF2A00106971 /* MarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksView.swift; sourceTree = "<group>"; };
+		F4BFAD23293BD05700106971 /* StorageKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKey.swift; sourceTree = "<group>"; };
+		F4BFAD25293BD18F00106971 /* UserDefaults+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Ext.swift"; sourceTree = "<group>"; };
+		F4BFAD27293BD3AC00106971 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		F4BFAD29293C2A9100106971 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		F4BFAD2B293C2B3900106971 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		F4BFAD2D293C2B5900106971 /* GroupDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDTO.swift; sourceTree = "<group>"; };
+		F4BFAD31293C3DAB00106971 /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
+		F4BFAD33293C3DEF00106971 /* MarkDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkDTO.swift; sourceTree = "<group>"; };
+		F4CFE83D293D26A3009211B0 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		F4CFE840293D2D71009211B0 /* KPIPasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIPasswordField.swift; sourceTree = "<group>"; };
+		F4CFE844293D4115009211B0 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		F4CFE846293D4C17009211B0 /* CurrentLessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLessonViewModel.swift; sourceTree = "<group>"; };
+		F4CFE848293D4C3E009211B0 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		F4CFE84A293D4F9D009211B0 /* DetailLessonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLessonViewModel.swift; sourceTree = "<group>"; };
+		F4CFE84C293D51A6009211B0 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		F4CFE84E293D5D87009211B0 /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
+		F4CFE850293D5F22009211B0 /* ExamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewModel.swift; sourceTree = "<group>"; };
+		F4CFE852293D6107009211B0 /* MarksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksViewModel.swift; sourceTree = "<group>"; };
+		F4CFE854293D6262009211B0 /* FinanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewModel.swift; sourceTree = "<group>"; };
+		F4CFE858293D664F009211B0 /* DetailLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLessonView.swift; sourceTree = "<group>"; };
+		F4CFE85A293D6B1E009211B0 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		F4FE311F2939AE1E0022E8FA /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
+		F4FE31212939AE5A0022E8FA /* LessonDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDTO.swift; sourceTree = "<group>"; };
+		F4FE31232939AFC90022E8FA /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		F4FE31252939BBBE0022E8FA /* CurrentLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLessonView.swift; sourceTree = "<group>"; };
+		F4FE31272939BC780022E8FA /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		F4FE31292939BDC30022E8FA /* ScheduleDayDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDayDTO.swift; sourceTree = "<group>"; };
+		F4FE312B2939BE120022E8FA /* ScheduleDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDay.swift; sourceTree = "<group>"; };
+		F4FE312D2939BE510022E8FA /* ScheduleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCardView.swift; sourceTree = "<group>"; };
+		F4FE312F2939C5F00022E8FA /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
+		F4FE31312939C63A0022E8FA /* UserDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDTO.swift; sourceTree = "<group>"; };
+		F4FE31332939C6D50022E8FA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +203,15 @@
 		F4486C9029201B7200582138 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F48E98242938E9E500202847 /* Settings */,
+				F4FE311F2939AE1E0022E8FA /* LessonView.swift */,
+				F48E98322938F39800202847 /* SignIn */,
+				F48E98312938F38100202847 /* Financial */,
+				F48E98302938F37900202847 /* Marks */,
+				F48E98242938E9E500202847 /* ProfileInfo */,
 				F48E98232938E9D900202847 /* Schedule */,
 				F48E98222938E9D000202847 /* CurrentLesson */,
 				F48E98212938E9C800202847 /* Utils */,
+				F48E983C2938FC5400202847 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +219,9 @@
 		F4486C9329201BBD00582138 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F48E98382938FA6100202847 /* Extansions */,
+				F4BFAD23293BD05700106971 /* StorageKey.swift */,
+				F4BFAD27293BD3AC00106971 /* Images.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -197,6 +299,8 @@
 		F48E98212938E9C800202847 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F4CFE83F293D2D52009211B0 /* TextFields */,
+				F48E98352938F3C200202847 /* Buttons */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -204,6 +308,7 @@
 		F48E98222938E9D000202847 /* CurrentLesson */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE31252939BBBE0022E8FA /* CurrentLessonView.swift */,
 			);
 			path = CurrentLesson;
 			sourceTree = "<group>";
@@ -211,20 +316,25 @@
 		F48E98232938E9D900202847 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE31272939BC780022E8FA /* ScheduleView.swift */,
+				F4FE312D2939BE510022E8FA /* ScheduleCardView.swift */,
+				F4CFE858293D664F009211B0 /* DetailLessonView.swift */,
 			);
 			path = Schedule;
 			sourceTree = "<group>";
 		};
-		F48E98242938E9E500202847 /* Settings */ = {
+		F48E98242938E9E500202847 /* ProfileInfo */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE312F2939C5F00022E8FA /* ProfileInfoView.swift */,
 			);
-			path = Settings;
+			path = ProfileInfo;
 			sourceTree = "<group>";
 		};
 		F48E98252938EA6400202847 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				F493969E293CCBCF0036059F /* DataProvider */,
 				F48E98282938EB8D00202847 /* Networking */,
 				F48E98262938EABD00202847 /* DTO */,
 				F48E98292938EBA100202847 /* EmptyResponseHelper.swift */,
@@ -235,6 +345,13 @@
 		F48E98262938EABD00202847 /* DTO */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE31212939AE5A0022E8FA /* LessonDTO.swift */,
+				F4FE31292939BDC30022E8FA /* ScheduleDayDTO.swift */,
+				F4FE31312939C63A0022E8FA /* UserDTO.swift */,
+				F4BFAD2D293C2B5900106971 /* GroupDTO.swift */,
+				F4BFAD33293C3DEF00106971 /* MarkDTO.swift */,
+				F4939692293CC47A0036059F /* ExamDTO.swift */,
+				F4939696293CC9C50036059F /* FinanceDTO.swift */,
 			);
 			path = DTO;
 			sourceTree = "<group>";
@@ -242,6 +359,7 @@
 		F48E98282938EB8D00202847 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				F49396A1293CCDA30036059F /* RESTClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -249,6 +367,7 @@
 		F48E982B2938EC5B00202847 /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
+				F4CFE83D293D26A3009211B0 /* Mapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -256,6 +375,15 @@
 		F48E982C2938EC6500202847 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F4CFE846293D4C17009211B0 /* CurrentLessonViewModel.swift */,
+				F4CFE848293D4C3E009211B0 /* BaseViewModel.swift */,
+				F4CFE84A293D4F9D009211B0 /* DetailLessonViewModel.swift */,
+				F4CFE84C293D51A6009211B0 /* ScheduleViewModel.swift */,
+				F4CFE84E293D5D87009211B0 /* InfoViewModel.swift */,
+				F4CFE850293D5F22009211B0 /* ExamViewModel.swift */,
+				F4CFE852293D6107009211B0 /* MarksViewModel.swift */,
+				F4CFE854293D6262009211B0 /* FinanceViewModel.swift */,
+				F4CFE85A293D6B1E009211B0 /* SignInViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -263,6 +391,13 @@
 		F48E982D2938EC8C00202847 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE31232939AFC90022E8FA /* Lesson.swift */,
+				F4FE312B2939BE120022E8FA /* ScheduleDay.swift */,
+				F4FE31332939C6D50022E8FA /* User.swift */,
+				F4BFAD2B293C2B3900106971 /* Group.swift */,
+				F4BFAD31293C3DAB00106971 /* Mark.swift */,
+				F4939694293CC9080036059F /* Exam.swift */,
+				F4939698293CCA340036059F /* Finance.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -270,8 +405,86 @@
 		F48E982E2938EC9100202847 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				F4BFAD29293C2A9100106971 /* Repository.swift */,
+				F493969A293CCB9C0036059F /* RepositoryImpl.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		F48E98302938F37900202847 /* Marks */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFAD21293BCF2A00106971 /* MarksView.swift */,
+			);
+			path = Marks;
+			sourceTree = "<group>";
+		};
+		F48E98312938F38100202847 /* Financial */ = {
+			isa = PBXGroup;
+			children = (
+				F4BFAD1F293BCF2100106971 /* FinancialView.swift */,
+			);
+			path = Financial;
+			sourceTree = "<group>";
+		};
+		F48E98322938F39800202847 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				F48E98332938F3B900202847 /* SignInView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		F48E98352938F3C200202847 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F48E98362938F3D100202847 /* MainButtonView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F48E98382938FA6100202847 /* Extansions */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFE843293D40EC009211B0 /* System */,
+				F48E98392938FA6900202847 /* UI */,
+				F4BFAD25293BD18F00106971 /* UserDefaults+Ext.swift */,
+			);
+			path = Extansions;
+			sourceTree = "<group>";
+		};
+		F48E98392938FA6900202847 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F48E983A2938FA8E00202847 /* Color+Ext.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F493969E293CCBCF0036059F /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				F493969C293CCBBC0036059F /* DataProvider.swift */,
+				F493969F293CCBE60036059F /* DataProviderProtocol.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		F4CFE83F293D2D52009211B0 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				F48E983E2938FEFC00202847 /* KPITextField.swift */,
+				F4CFE840293D2D71009211B0 /* KPIPasswordField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		F4CFE843293D40EC009211B0 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F4CFE844293D4115009211B0 /* Date+Ext.swift */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,9 +626,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BFAD32293C3DAB00106971 /* Mark.swift in Sources */,
 				F44F95B4291829C90039BEA7 /* ContentView.swift in Sources */,
+				F4FE31202939AE1E0022E8FA /* LessonView.swift in Sources */,
+				F4BFAD34293C3DEF00106971 /* MarkDTO.swift in Sources */,
+				F49396A0293CCBE60036059F /* DataProviderProtocol.swift in Sources */,
+				F4CFE84F293D5D87009211B0 /* InfoViewModel.swift in Sources */,
+				F4939699293CCA340036059F /* Finance.swift in Sources */,
+				F4BFAD20293BCF2100106971 /* FinancialView.swift in Sources */,
+				F48E983D2938FC5400202847 /* HomeView.swift in Sources */,
+				F4939697293CC9C50036059F /* FinanceDTO.swift in Sources */,
+				F4939693293CC47A0036059F /* ExamDTO.swift in Sources */,
+				F4FE312E2939BE510022E8FA /* ScheduleCardView.swift in Sources */,
+				F4FE31222939AE5A0022E8FA /* LessonDTO.swift in Sources */,
+				F4FE31262939BBBE0022E8FA /* CurrentLessonView.swift in Sources */,
+				F4CFE85B293D6B1E009211B0 /* SignInViewModel.swift in Sources */,
+				F4BFAD2A293C2A9100106971 /* Repository.swift in Sources */,
+				F4FE31322939C63A0022E8FA /* UserDTO.swift in Sources */,
+				F4BFAD26293BD18F00106971 /* UserDefaults+Ext.swift in Sources */,
+				F4CFE855293D6262009211B0 /* FinanceViewModel.swift in Sources */,
+				F4FE312A2939BDC30022E8FA /* ScheduleDayDTO.swift in Sources */,
+				F4CFE853293D6107009211B0 /* MarksViewModel.swift in Sources */,
+				F4CFE849293D4C3E009211B0 /* BaseViewModel.swift in Sources */,
+				F48E983F2938FEFC00202847 /* KPITextField.swift in Sources */,
+				F4CFE83E293D26A3009211B0 /* Mapper.swift in Sources */,
+				F4CFE845293D4115009211B0 /* Date+Ext.swift in Sources */,
+				F493969D293CCBBC0036059F /* DataProvider.swift in Sources */,
+				F4FE312C2939BE120022E8FA /* ScheduleDay.swift in Sources */,
+				F4CFE841293D2D71009211B0 /* KPIPasswordField.swift in Sources */,
 				F48E982A2938EBA100202847 /* EmptyResponseHelper.swift in Sources */,
+				F4BFAD28293BD3AC00106971 /* Images.swift in Sources */,
+				F48E98372938F3D100202847 /* MainButtonView.swift in Sources */,
+				F493969B293CCB9C0036059F /* RepositoryImpl.swift in Sources */,
+				F48E98342938F3B900202847 /* SignInView.swift in Sources */,
+				F4BFAD2E293C2B5900106971 /* GroupDTO.swift in Sources */,
 				F44F95B2291829C90039BEA7 /* KPIDiplomaApp.swift in Sources */,
+				F4BFAD24293BD05700106971 /* StorageKey.swift in Sources */,
+				F4939695293CC9080036059F /* Exam.swift in Sources */,
+				F4BFAD2C293C2B3900106971 /* Group.swift in Sources */,
+				F4CFE84B293D4F9D009211B0 /* DetailLessonViewModel.swift in Sources */,
+				F49396A2293CCDA30036059F /* RESTClient.swift in Sources */,
+				F48E983B2938FA8E00202847 /* Color+Ext.swift in Sources */,
+				F4CFE859293D664F009211B0 /* DetailLessonView.swift in Sources */,
+				F4BFAD22293BCF2A00106971 /* MarksView.swift in Sources */,
+				F4FE31282939BC780022E8FA /* ScheduleView.swift in Sources */,
+				F4CFE84D293D51A6009211B0 /* ScheduleViewModel.swift in Sources */,
+				F4CFE847293D4C17009211B0 /* CurrentLessonViewModel.swift in Sources */,
+				F4FE31302939C5F00022E8FA /* ProfileInfoView.swift in Sources */,
+				F4FE31242939AFC90022E8FA /* Lesson.swift in Sources */,
+				F4FE31342939C6D50022E8FA /* User.swift in Sources */,
+				F4CFE851293D5F22009211B0 /* ExamViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
