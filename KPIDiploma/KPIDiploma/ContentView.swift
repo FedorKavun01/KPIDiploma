@@ -6,13 +6,21 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    private var userId: String {
+        UserDefaults.get(StorageKey.currentUserId)
+    }
+    
     var body: some View {
         NavigationStack {
             VStack {
-    //            SignInView()
-                HomeView()
+                if userId.isEmpty {
+                    SignInView()
+                } else {
+                    HomeView()
+                }
             }
             .ignoresSafeArea(.keyboard)
         }

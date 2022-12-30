@@ -12,8 +12,11 @@ import Alamofire
 class DataProvider: DataProviderProtocol {
     private let rest = RESTClient()
     
-    func signIn(login: String, password: String) -> AnyPublisher<UserDTO, AFError> {
-        return rest.execute(url: "http://localhost:5000/api/User/GetUser", method: .post, parameters: ["login": login, "password": password])
+    func signIn(dto: SignInEntityDTO) -> AnyPublisher<UserDTO, AFError> {
+        let json = try? JSONEncoder().encode(dto)
+        let jsonObject = try? JSONSerialization.jsonObject(with: json!, options: []) as? [String : Any]
+        
+        return rest.execute(url: "http://localhost:5000/api/User/SignIn", method: .post, parameters: jsonObject)
     }
     
     func getUser(userId: String) -> AnyPublisher<UserDTO, AFError> {

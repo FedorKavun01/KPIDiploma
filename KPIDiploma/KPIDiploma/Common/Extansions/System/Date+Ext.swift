@@ -18,10 +18,13 @@ extension Date {
 
 enum DateFormat {
     case usual
+    case days
     
     var format: String {
         switch self {
         case .usual:
+            return "MMM dd, yyyy hh:mm"
+        case .days:
             return "MMM dd, yyyy"
         }
     }

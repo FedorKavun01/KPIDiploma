@@ -16,4 +16,8 @@ class Images {
     public static let lessonTeacher: String = "Teacher"
     public static let lessonTheme: String = "Theme"
     public static let lessonTime: String = "Time"
+    
+    public static let chilling: String = "chilling"
+    public static let money: String = "money"
+    public static let noData: String = "noData"
 }

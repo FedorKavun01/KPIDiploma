@@ -20,6 +20,9 @@ struct CurrentLessonView: View {
     
     var body: some View {
         LessonView(lesson: viewModel.lesson ?? .mockData)
+            .onAppear {
+                viewModel.getCurrentLesson()
+            }
     }
 }
 

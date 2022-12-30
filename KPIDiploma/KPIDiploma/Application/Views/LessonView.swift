@@ -55,7 +55,7 @@ struct LessonView: View {
         case .teacher:
             return ": \(lesson.teacher)"
         case .time:
-            return ": \(lesson.startTime) - \(lesson.endTime)"
+            return ": \(lesson.startTime.getFormattedString(dateFormat: .usual)) - \(lesson.endTime.getFormattedString(dateFormat: .usual))"
         case .theme:
             return ": \(lesson.theme)"
         case .homework:

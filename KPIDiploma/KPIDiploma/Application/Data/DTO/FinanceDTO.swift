@@ -9,7 +9,7 @@ import Foundation
 
 struct FinanceDTO: Codable {
     public var id: String
-    public var studentId: String
+    public var studentID: String
     public var isContract: Bool
     public var debtAmount: Int?
 }

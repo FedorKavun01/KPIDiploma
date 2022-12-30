@@ -37,6 +37,7 @@ struct ScheduleCardView: View {
             .resizable()
             .frame(maxWidth: .infinity)
             .frame(height: 200)
+            .background(Color.gray.opacity(0.5))
             .overlay(alignment: .bottom) {
                 HStack {
                     Spacer()

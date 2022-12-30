@@ -10,11 +10,12 @@ import Foundation
 class Mapper {
     func mapLessonDTO(dto: LessonDTO) -> Lesson {
         return .init(id: dto.id,
-                     groupId: dto.groupId,
+                     groupId: dto.groupID,
                      name: dto.name,
-                     startTime: dto.startTime,
-                     endTime: dto.endTime,
+                     startTime: dto.startTime.stringToDate() ?? .init(),
+                     endTime: dto.endTime.stringToDate() ?? .init(),
                      teacher: dto.teacher,
+                     link: dto.link,
                      theme: dto.theme,
                      homework: dto.homework)
     }
@@ -23,13 +24,13 @@ class Mapper {
         let lessons = dto.lessons.map { mapLessonDTO(dto: $0) }
         
         return .init(id: dto.id,
-                     date: dto.date,
+                     date: dto.date.stringToDate() ?? .init(),
                      lessons: lessons)
     }
     
     func mapUserDTO(dto: UserDTO) -> User {
         return .init(id: dto.id,
-                     groupId: dto.groupId,
+                     groupId: dto.groupID,
                      firstName: dto.firstName,
                      lastName: dto.lastName)
     }
@@ -50,16 +51,21 @@ class Mapper {
     
     func mapExamDTO(dto: ExamDTO) -> Exam {
         return .init(id: dto.id,
-                     groupId: dto.groupId,
+                     groupId: dto.groupID,
                      name: dto.name,
-                     startTime: dto.startTime,
-                     endTime: dto.endTime,
+                     startTime: dto.startTime.stringToDate() ?? .init(),
+                     endTime: dto.endTime.stringToDate() ?? .init(),
                      teacher: dto.teacher)
     }
     
     func mapFinanceDTO(dto: FinanceDTO) -> Finance {
         return .init(id: dto.id,
-                     studentId: dto.studentId,
+                     studentId: dto.studentID,
                      isContract: dto.isContract)
+    }
+    
+    func mapSignInEntity(model: SignInEntity) -> SignInEntityDTO {
+        return .init(login: model.login,
+                     password: model.password)
     }
 }

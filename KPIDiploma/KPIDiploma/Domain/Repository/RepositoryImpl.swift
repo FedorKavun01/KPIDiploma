@@ -13,8 +13,10 @@ class RepositoryImpl: Repository {
     private let dataProvider: DataProviderProtocol = DataProvider()
     private let mapper: Mapper = Mapper()
     
-    func signIn(login: String, password: String) -> AnyPublisher<User, Alamofire.AFError> {
-        dataProvider.signIn(login: login, password: password)
+    func signIn(entity: SignInEntity) -> AnyPublisher<User, Alamofire.AFError> {
+        let dto = mapper.mapSignInEntity(model: entity)
+        
+        return dataProvider.signIn(dto: dto)
             .map {
                 self.mapper.mapUserDTO(dto: $0)
             }

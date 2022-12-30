@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Mark {
+struct Mark: Identifiable {
     public var id: String
     public var studentId: String
     public var name: String

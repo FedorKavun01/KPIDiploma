@@ -9,7 +9,7 @@ import Foundation
 
 struct UserDTO: Codable {
     public var id: String
-    public var groupId: String
+    public var groupID: String
     public var firstName: String
     public var lastName: String
 }

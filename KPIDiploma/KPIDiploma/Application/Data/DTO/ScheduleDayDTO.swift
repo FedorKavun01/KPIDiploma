@@ -9,6 +9,6 @@ import Foundation
 
 struct ScheduleDayDTO: Codable {
     public var id: String
-    public var date: Date
+    public var date: String
     public var lessons: [LessonDTO]
 }

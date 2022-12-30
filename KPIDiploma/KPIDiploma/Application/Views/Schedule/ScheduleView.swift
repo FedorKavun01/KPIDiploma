@@ -37,8 +37,10 @@ struct ScheduleView: View {
                 }
             }
         }
-        
         .padding(.horizontal, 20)
+        .onAppear {
+            viewModel.getSchedule()
+        }
     }
     
     @ViewBuilder

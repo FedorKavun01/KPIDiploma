@@ -25,9 +25,19 @@ struct SignInView: View {
                 MainButtonView(text: "Sign In") {
                     viewModel.signIn()
                 }
+                
+                NavigationLink("", isActive: $viewModel.isSignedIn) {
+                    HomeView()
+                        .navigationBarTitle("")
+                        .navigationBarHidden(true)
+                        .navigationBarBackButtonHidden(true)
+                }
             }
             .padding(.horizontal)
         }
+        .alert("Wrong credentials", isPresented: $viewModel.shouldShowErrorAlert, actions: {
+            Button("Ok", role: .cancel, action: {  })
+        })
     }
 }
 

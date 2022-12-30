@@ -10,7 +10,7 @@ import Combine
 import Alamofire
 
 protocol Repository {
-    func signIn(login: String, password: String) -> AnyPublisher<User, AFError>
+    func signIn(entity: SignInEntity) -> AnyPublisher<User, AFError>
     func getUser(userId: String) -> AnyPublisher<User, AFError>
     func getGroup(groupId: String) -> AnyPublisher<Group, AFError>
     func getMarks(userId: String) -> AnyPublisher<[Mark], AFError>

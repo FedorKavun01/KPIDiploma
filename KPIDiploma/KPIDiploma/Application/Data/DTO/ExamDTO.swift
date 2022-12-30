@@ -9,10 +9,10 @@ import Foundation
 
 struct ExamDTO: Codable {
     public var id: String
-    public var groupId: String
+    public var groupID: String
     public var name: String
-    public var startTime: Date
-    public var endTime: Date
+    public var startTime: String
+    public var endTime: String
     public var teacher: String
     public var link: String?
 }

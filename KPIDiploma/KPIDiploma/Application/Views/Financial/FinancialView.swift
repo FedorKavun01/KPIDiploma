@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct FinancialView: View {
+    @StateObject private var viewModel: FinanceViewModel = .init()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(viewModel.status.imageName)
+                .resizable()
+                .frame(width: 250, height: 250)
+                .padding(.bottom, 30)
+            
+            Text(viewModel.status.title)
+                .font(.system(size: 25, weight: .semibold))
+                .multilineTextAlignment(.center)
+        }
+        .padding(.horizontal, 20)
+        .onAppear {
+            viewModel.getFinanceData()
+        }
     }
 }
 

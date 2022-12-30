@@ -14,7 +14,7 @@ class ExamViewModel: BaseViewModel {
     private var cancellables: Set<AnyCancellable> = .init()
     
     private var userId: String {
-        UserDefaults.get(StorageKey.currentUserId)
+        UserDefaults.get(StorageKey.currentGroupId)
     }
     
     func getExams() {

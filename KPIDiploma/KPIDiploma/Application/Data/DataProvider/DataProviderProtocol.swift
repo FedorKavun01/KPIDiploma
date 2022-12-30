@@ -10,7 +10,7 @@ import Combine
 import Alamofire
 
 protocol DataProviderProtocol {
-    func signIn(login: String, password: String) -> AnyPublisher<UserDTO, AFError>
+    func signIn(dto: SignInEntityDTO) -> AnyPublisher<UserDTO, AFError>
     func getUser(userId: String) -> AnyPublisher<UserDTO, AFError>
     func getGroup(groupId: String) -> AnyPublisher<GroupDTO, AFError>
     func getMarks(userId: String) -> AnyPublisher<[MarkDTO], AFError>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40825ED29461DA500B2A93E /* ExamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40825EC29461DA500B2A93E /* ExamView.swift */; };
+		F40825EF29461DFD00B2A93E /* ExamCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40825EE29461DFD00B2A93E /* ExamCardView.swift */; };
+		F40825F129465D9300B2A93E /* MarkCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40825F029465D9300B2A93E /* MarkCardView.swift */; };
 		F44F95B2291829C90039BEA7 /* KPIDiplomaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95B1291829C90039BEA7 /* KPIDiplomaApp.swift */; };
 		F44F95B4291829C90039BEA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44F95B3291829C90039BEA7 /* ContentView.swift */; };
 		F44F95B6291829CA0039BEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F44F95B5291829CA0039BEA7 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 		F44F95DE29182CBE0039BEA7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95DD29182CBE0039BEA7 /* Alamofire */; };
 		F44F95E129182E490039BEA7 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95E029182E490039BEA7 /* ComposableArchitecture */; };
 		F44F95E329182E490039BEA7 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = F44F95E229182E490039BEA7 /* Dependencies */; };
+		F45AE6D62950C22100CE0E68 /* SignInEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AE6D52950C22100CE0E68 /* SignInEntity.swift */; };
+		F45AE6D82950C25E00CE0E68 /* SignInEntityDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AE6D72950C25E00CE0E68 /* SignInEntityDTO.swift */; };
+		F45AE6DA29512F9600CE0E68 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AE6D929512F9600CE0E68 /* String+Ext.swift */; };
 		F48E982A2938EBA100202847 /* EmptyResponseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E98292938EBA100202847 /* EmptyResponseHelper.swift */; };
 		F48E98342938F3B900202847 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E98332938F3B900202847 /* SignInView.swift */; };
 		F48E98372938F3D100202847 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E98362938F3D100202847 /* MainButtonView.swift */; };
@@ -85,6 +91,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F40825EC29461DA500B2A93E /* ExamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamView.swift; sourceTree = "<group>"; };
+		F40825EE29461DFD00B2A93E /* ExamCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamCardView.swift; sourceTree = "<group>"; };
+		F40825F029465D9300B2A93E /* MarkCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkCardView.swift; sourceTree = "<group>"; };
 		F44F95AE291829C90039BEA7 /* KPIDiploma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPIDiploma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44F95B1291829C90039BEA7 /* KPIDiplomaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaApp.swift; sourceTree = "<group>"; };
 		F44F95B3291829C90039BEA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +105,10 @@
 		F44F95C9291829CB0039BEA7 /* KPIDiplomaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KPIDiplomaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44F95CD291829CB0039BEA7 /* KPIDiplomaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaUITests.swift; sourceTree = "<group>"; };
 		F44F95CF291829CB0039BEA7 /* KPIDiplomaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPIDiplomaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F45AE6D52950C22100CE0E68 /* SignInEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEntity.swift; sourceTree = "<group>"; };
+		F45AE6D72950C25E00CE0E68 /* SignInEntityDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEntityDTO.swift; sourceTree = "<group>"; };
+		F45AE6D929512F9600CE0E68 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		F487ADB9294FC6D100959E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F48E98292938EBA100202847 /* EmptyResponseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyResponseHelper.swift; sourceTree = "<group>"; };
 		F48E98332938F3B900202847 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		F48E98362938F3D100202847 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
@@ -174,6 +187,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F40825EB29461D2B00B2A93E /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				F40825EC29461DA500B2A93E /* ExamView.swift */,
+				F40825EE29461DFD00B2A93E /* ExamCardView.swift */,
+			);
+			path = Exam;
+			sourceTree = "<group>";
+		};
 		F4486C8D29201A1F00582138 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +225,7 @@
 		F4486C9029201B7200582138 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F40825EB29461D2B00B2A93E /* Exam */,
 				F4FE311F2939AE1E0022E8FA /* LessonView.swift */,
 				F48E98322938F39800202847 /* SignIn */,
 				F48E98312938F38100202847 /* Financial */,
@@ -258,6 +281,7 @@
 		F44F95B0291829C90039BEA7 /* KPIDiploma */ = {
 			isa = PBXGroup;
 			children = (
+				F487ADB9294FC6D100959E07 /* Info.plist */,
 				F4486C9429201BC200582138 /* Domain */,
 				F4486C9329201BBD00582138 /* Common */,
 				F4486C8F29201B2B00582138 /* Application */,
@@ -352,6 +376,7 @@
 				F4BFAD33293C3DEF00106971 /* MarkDTO.swift */,
 				F4939692293CC47A0036059F /* ExamDTO.swift */,
 				F4939696293CC9C50036059F /* FinanceDTO.swift */,
+				F45AE6D72950C25E00CE0E68 /* SignInEntityDTO.swift */,
 			);
 			path = DTO;
 			sourceTree = "<group>";
@@ -398,6 +423,7 @@
 				F4BFAD31293C3DAB00106971 /* Mark.swift */,
 				F4939694293CC9080036059F /* Exam.swift */,
 				F4939698293CCA340036059F /* Finance.swift */,
+				F45AE6D52950C22100CE0E68 /* SignInEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -415,6 +441,7 @@
 			isa = PBXGroup;
 			children = (
 				F4BFAD21293BCF2A00106971 /* MarksView.swift */,
+				F40825F029465D9300B2A93E /* MarkCardView.swift */,
 			);
 			path = Marks;
 			sourceTree = "<group>";
@@ -483,6 +510,7 @@
 			isa = PBXGroup;
 			children = (
 				F4CFE844293D4115009211B0 /* Date+Ext.swift */,
+				F45AE6D929512F9600CE0E68 /* String+Ext.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -629,21 +657,26 @@
 				F4BFAD32293C3DAB00106971 /* Mark.swift in Sources */,
 				F44F95B4291829C90039BEA7 /* ContentView.swift in Sources */,
 				F4FE31202939AE1E0022E8FA /* LessonView.swift in Sources */,
+				F40825F129465D9300B2A93E /* MarkCardView.swift in Sources */,
+				F45AE6D82950C25E00CE0E68 /* SignInEntityDTO.swift in Sources */,
 				F4BFAD34293C3DEF00106971 /* MarkDTO.swift in Sources */,
 				F49396A0293CCBE60036059F /* DataProviderProtocol.swift in Sources */,
 				F4CFE84F293D5D87009211B0 /* InfoViewModel.swift in Sources */,
 				F4939699293CCA340036059F /* Finance.swift in Sources */,
 				F4BFAD20293BCF2100106971 /* FinancialView.swift in Sources */,
 				F48E983D2938FC5400202847 /* HomeView.swift in Sources */,
+				F45AE6D62950C22100CE0E68 /* SignInEntity.swift in Sources */,
 				F4939697293CC9C50036059F /* FinanceDTO.swift in Sources */,
 				F4939693293CC47A0036059F /* ExamDTO.swift in Sources */,
 				F4FE312E2939BE510022E8FA /* ScheduleCardView.swift in Sources */,
 				F4FE31222939AE5A0022E8FA /* LessonDTO.swift in Sources */,
 				F4FE31262939BBBE0022E8FA /* CurrentLessonView.swift in Sources */,
+				F40825ED29461DA500B2A93E /* ExamView.swift in Sources */,
 				F4CFE85B293D6B1E009211B0 /* SignInViewModel.swift in Sources */,
 				F4BFAD2A293C2A9100106971 /* Repository.swift in Sources */,
 				F4FE31322939C63A0022E8FA /* UserDTO.swift in Sources */,
 				F4BFAD26293BD18F00106971 /* UserDefaults+Ext.swift in Sources */,
+				F45AE6DA29512F9600CE0E68 /* String+Ext.swift in Sources */,
 				F4CFE855293D6262009211B0 /* FinanceViewModel.swift in Sources */,
 				F4FE312A2939BDC30022E8FA /* ScheduleDayDTO.swift in Sources */,
 				F4CFE853293D6107009211B0 /* MarksViewModel.swift in Sources */,
@@ -654,6 +687,7 @@
 				F493969D293CCBBC0036059F /* DataProvider.swift in Sources */,
 				F4FE312C2939BE120022E8FA /* ScheduleDay.swift in Sources */,
 				F4CFE841293D2D71009211B0 /* KPIPasswordField.swift in Sources */,
+				F40825EF29461DFD00B2A93E /* ExamCardView.swift in Sources */,
 				F48E982A2938EBA100202847 /* EmptyResponseHelper.swift in Sources */,
 				F4BFAD28293BD3AC00106971 /* Images.swift in Sources */,
 				F48E98372938F3D100202847 /* MainButtonView.swift in Sources */,
@@ -834,8 +868,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KPIDiploma/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
@@ -874,8 +910,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KPIDiploma/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;

@@ -20,7 +20,7 @@ class InfoViewModel: BaseViewModel {
     func getUser() {
         self.shouldShowLoader = true
         
-        repository.getUser(userId: userId)
+        repository.getUser(userId: "57b1a4c9-80e0-4a39-9b45-68c014195e2e")
             .sink { [weak self] completion in
                 guard let self = self else { return }
                 switch completion {
@@ -32,6 +32,7 @@ class InfoViewModel: BaseViewModel {
                 self.shouldShowLoader = false
             } receiveValue: { [weak self] response in
                 guard let self = self else { return }
+                print(response)
                 self.user = response
             }
             .store(in: &cancellables)

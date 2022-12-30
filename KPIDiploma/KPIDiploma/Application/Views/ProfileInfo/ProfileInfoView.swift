@@ -25,15 +25,18 @@ struct ProfileInfoView: View {
                 .padding(.horizontal)
             
             ForEach(ProfileInfoRow.allCases, id: \.self) { profileInfo in
-                Button(action: {}) {
+                NavigationLink {
+                    getView(profileInfo: profileInfo)
+                } label: {
                     HStack {
                         Text(profileInfo.name)
+                            .foregroundColor(.blue)
                         
                         Spacer()
                     }
                     .padding(.horizontal)
+                    .padding(.vertical, 10)
                 }
-                .padding(.vertical, 10)
                 
                 Divider()
                     .frame(height: 4)
@@ -42,7 +45,26 @@ struct ProfileInfoView: View {
             
             Spacer()
         }
+        .onAppear {
+            viewModel.getUser()
+        }
         
+    }
+    
+    @ViewBuilder
+    private func getView(profileInfo: ProfileInfoRow) -> some View {
+        VStack {
+            switch profileInfo {
+            case .marks:
+                MarksView()
+            case .finance:
+                FinancialView()
+            case .exams:
+                ExamView()
+            case .admin:
+                EmptyView()
+            }
+        }
     }
     
     enum ProfileInfoRow: CaseIterable {
